@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{a06e32ff-53e7-45e5-a677-009588cf90ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Base">
+      <UniqueIdentifier>{6fee0c6b-7ae4-4f89-a6ab-04f0360b31e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Days">
+      <UniqueIdentifier>{2980a567-5210-4ce0-af29-396e5446e11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Days\Day1">
+      <UniqueIdentifier>{4fb1c625-79a0-4abb-adce-2ca3e2ec08dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Code\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Code\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Day1.cpp">
+      <Filter>Code\Days\Day1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities.h">
+      <Filter>Code\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Day1.h">
+      <Filter>Code\Days\Day1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Day1.txt" />
+  </ItemGroup>
+</Project>
