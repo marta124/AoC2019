@@ -1,4 +1,4 @@
-#include "Day1.h"
+#include "Day2.h"
 #include <iostream>
 
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-	mainDay1();
+	mainDay2();
 	cin.ignore();
 
 	return 0;

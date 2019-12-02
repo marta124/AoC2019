@@ -9,7 +9,7 @@ using namespace std;
 std::vector<std::string> parseFile(std::string path)
 {
 	std::vector<std::string> lines;
-	a
+	
 	ifstream file(path);
 	if (file.is_open()) {
 		string line;
